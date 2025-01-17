@@ -1,0 +1,32 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "conceptual class",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "monib bormon",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.3",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.9"
+  }
+}
